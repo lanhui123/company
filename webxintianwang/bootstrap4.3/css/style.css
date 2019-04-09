@@ -1,0 +1,602 @@
+body a {
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+html, body{
+    font-size: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+body{
+    margin-top: 0px;
+    background:#FFFFFF;
+}
+
+
+
+.agileits-banner-info {
+    margin: 1em auto 0;
+
+}
+
+.agileinfo-dot {
+    background: url("/bootstrap4.3/image/dott.png") repeat 0px 0px;
+    background-size: 2px;
+    -webkit-background-size: 2px;
+    -moz-background-size: 2px;
+    -o-background-size: 2px;
+    -ms-background-size: 2px;
+}
+
+.w3layouts-banner-top3 {
+    background: url("/bootstrap4.3/image/111.jpg") repeat 0px 0px;
+    background-size: cover;
+}
+
+.jarallax111 {
+
+   font-family: 'Roboto Condensed', sans-serif;
+    font-size: 5rem;
+    color: white;
+    opacity: 0.8;
+}
+
+.callbacks {
+    position:relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.callbacks li{
+    position: absolute;
+    width: 100%;
+}
+.callbacks img{
+    position: relative;
+    z-index: 1;
+    height: auto;
+    border: 0;
+}
+
+.callbacks_container {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+
+
+.rslides {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+}
+
+.w3-button {
+    margin: 4em 0 5em 0;
+}
+.w3-button a{
+
+    color: #FFFFFF;
+    font-size: 1em;
+    text-decoration: none;
+    padding: 1.4em 1em;
+    background: none;
+    text-align: center;
+    border: solid 2px #FFFFFF;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -moz-border-radius: 50%;
+}
+.w3-button a:hover{
+    color: #ff211d;
+    background: #FFFFFF;
+    border: solid 2px #FFFFFF;
+}
+
+.w3layouts-banner-top {
+    background: url("/bootstrap4.3/image/2.jpg") no-repeat 0px 0px;
+    background-size: cover;
+}
+
+.w3layouts-banner-top1 {
+    background: url("/bootstrap4.3/image/4.jpg") no-repeat 0px 0px;
+    background-size: cover;
+}
+
+.w3-left {
+    float: right;
+}
+
+
+#slide2{
+    text-align: center;
+    margin: 0px;
+}
+
+#slide2 ul{
+    text-align: center;
+    margin: 10px;
+    padding: 0px;
+    display:block;
+}
+
+#slide2>li {
+    list-style-type: none;
+    margin:  0px;
+    padding: 0px;
+}
+#slide2 img{
+  width: 100%;
+    height: auto;
+    text-align: center;
+
+}
+
+.inline{
+float: left;
+
+}
+
+.text-1 {
+    display: block;
+    text-indent: 2em;
+    font-size: 1.2rem;
+
+}
+
+.newBox {
+    font-size: 1.2rem;
+}
+
+.newBox2 {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+/*  https://blog.csdn.net/fsgsdfghdfh/article/details/84823614 轻量级响应式轮播图*/
+.rslides{
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.rslides li{
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility:hidden; 	/* Firefox */
+    -ms-backface-visibility:hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+.rslides li:first-child{
+    position: relative;
+    display: block;
+    float: left;
+}
+.rslides img{
+    display: block;
+    height: auto;
+    float: left;
+    width: 100%;
+    border: 0;
+}
+
+/*
+.centered-btns_nav { position: absolute; top: 50%; z-index: 2; width: 38px; height: 61px; margin-top: -40px; line-height: 200px; background-image: url("../image/arrow.gif"); overflow: hidden; opacity:0.7;}
+.next { right: 0; background-position: right 0;}
+.centered-btns_nav:active { opacity: 1;}
+.centered-btns_tabs { margin-top: 15px; text-align: center; font-size: 0; list-style-type: none;}
+.centered-btns_tabs li { display: inline-block; margin: 0 3px; *display: inline; *zoom: 1;}
+.centered-btns_tabs a { display: inline-block; width: 9px; height: 9px; border-radius: 50%; line-height: 20px; background-color: rgba(0, 0, 0, .3); background-color: #ccc\9; overflow: hidden; *display: inline; *zoom: 1;}
+.centered-btns_tabs .centered-btns_here a { background-color: rgba(0, 0, 0, .8); background-color: #666\9;}
+*/
+/*js实现*/
+
+/*实现缩略图*/
+.wrap { position: relative; width: 100%; margin-left: 0 ; height: 450px}
+#slider-pager { position: absolute;  z-index: 10; width: 100%; margin: 0; padding: 0; text-align: center; list-style-type: none;}
+#slider-pager li { display: inline-block;  *display: inline; *zoom: 1;}
+#slider-pager img { display: block; border: 0;}
+
+#threds{
+    margin: 4em 0;
+    padding: 4em 0;
+}
+
+.threds {
+    margin: 4em 0;
+    background-color: #f7f7f7;
+}
+
+.threds-3 {
+    text-align: center;
+}
+
+.mark-icon {
+    padding: 1em;
+    background-color: #FFFFFF;
+    box-shadow: 0 0px 1px rgb(107 107 107),0 1px 2px; rgb(0,0,0,.24);
+
+}
+
+.margintop {
+    margin: 1em 0 ;
+}
+
+.icon-left {
+    float: left;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    margin-right: 1em;
+}
+
+.icon-right {
+    display: block;
+    text-align: left;
+   padding: 2px;
+
+}
+
+.markThreds {
+    margin: 4em 0 0 0;
+}
+
+.fource {
+    margin: 2em 0 0 0;
+    padding: 4em 0;
+}
+
+.sources {
+    text-align: center;
+
+}
+
+.agains-1 {
+    margin: 4em 0 ;
+}
+
+.again-5:nth-child(2){
+margin: 2em 0;
+
+}
+.agains-1 img{
+    width: 100%;
+}
+.agains-1 img:before{
+    top: 0;
+    display: block;
+}
+.again-5 h3{
+    margin: 0.5em 0;
+}
+.again-5 ul{
+    list-style: none;
+    display: block;
+    float: left;
+    padding: 0;
+}
+.again-5 li{
+    color: #999999;
+  line-height: 3;
+}
+/*为布局清除浮动*/
+.clearfix:before,.clearfix:after{
+    content:"";
+    display:table;
+}
+.clearfix:after{clear:both;}
+.clearfix{
+    *zoom:1;/*IE/7/6*/
+}
+
+.testBackground {
+    background: url("../image/1.jpg") no-repeat 0px 0px;
+    background-size: auto;
+    background-attachment: scroll;
+
+
+}
+
+.jarallfox {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.testBackground-margin {
+  padding: 4em 0;
+    background: url("../image/dott.png");
+    background-attachment: scroll;
+    background-size: 2px;
+    -webkit-background-size: 2px;
+    -moz-background-size: 2px;
+    -o-background-size: 2px;
+    -ms-background-size: 2px;
+}
+
+.charter {
+    text-align: center;
+}
+.charter h3 {
+    font-family: Verdana;
+    color: #ffffff;
+}
+.charter h5{
+    font-size: 14px;
+    font-family: Verdana;
+    color: #ffffff;
+}
+
+.testimonial-dot {
+    padding: 4em 0;
+    background: url("../image/dott.png")repeat 0px 0px;
+    background-size: 2px;
+    -webkit-background-size: 2px;
+    -moz-background-size: 2px;
+    -o-background-size: 2px;
+    -ms-background-size: 2px;
+}
+
+.jarallax {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+
+.wthree-heading {
+    text-align:center;
+}
+
+.testBackgroundImg {
+    width: 28%;
+    margin: 1em auto 0 auto;
+}
+
+
+.testBackground-img {
+
+    float: left;
+    width: 25%;
+}
+.testBackground-img img{
+    width: 100%;
+    border-radius: 50%;
+    -webkit-border-radius:50%;
+    -ms-border-radius:50%;
+    -moz-border-radius:50%;
+    -o-border-radius:50%;
+}
+
+.testBackground-img:nth-child(2){
+    margin: 0 2em;
+}
+
+.testBackgroundInfo {
+    text-align: center;
+    margin: 2em 0 0 0;
+}
+.testBackgroundInfo h5{
+    color: #FFFFFF;
+    margin: 1em 0;
+    font-family: 'Montserrat', sans-serif;
+    ext-transform: uppercase;
+}
+.testBackgroundInfo p{
+    width: 60%;
+    margin: 0 auto;
+    color: #FFFFFF;
+    line-height: 1.8em;
+}
+.t-img1 img {
+    opacity: 0.6;
+}
+.t-img2 img{
+    opacity: 0.6;
+}
+
+.textCenter {
+    text-align: center;
+}
+.textCenter h3{
+
+}
+
+.firede {
+    margin: 4em 0;
+}
+
+.conface {
+    margin: 1em 0;
+}
+.conface h3{
+    text-align: center;
+   font-size: 22px;
+    line-height: 10px;
+}
+.conface p{
+    margin: 5px;
+    font-family: 微软雅黑;
+    font-size: 16px;
+    line-height: 24px;
+    text-indent: 16px;
+}
+.conface a{
+    color: black;
+    text-decoration: none;
+}
+.conface a:hover{
+    color: #007bff;
+}
+
+.buysell img{
+width: 100%;
+}
+
+.lastyi {
+
+   background-color: #f7f7f7;
+
+}
+
+.lastcen {
+    padding: 2em 0;
+    text-align: center;
+
+}
+
+
+.lastboot h3{
+    font-weight: 700;
+    line-height: 30px;
+
+}
+
+
+.fesstime h5{
+    font-weight: 500;
+    font-size: 20px;
+    line-weight: 14px;
+    margin-top: 40px;
+}
+.fesstime p{
+    text-align: left;
+}
+
+.addresscon ul,li{
+    display: inline-block;
+line-height: 36px;
+    list-style: none;
+}
+
+.addresscon {
+    margin: 3em 0 0 0;
+}
+
+.addresscon ul{
+    padding: 0;
+    margin: 0;
+}
+.addresscon  ul li {
+    margin: 2em 0 1em 0;
+    display: block;
+
+}
+
+.fa-phone{
+    height: 40px;
+    width: 40px;
+    background: #ff211d;
+    line-height: 40px;
+    text-align: center;
+    color: #FFF;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+.fa-map-marker{
+    height: 40px;
+    width: 40px;
+    background: #ff211d;
+    line-height: 40px;
+    text-align: center;
+    color: #FFF;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+.addresscon ul li span a:hover{
+    color: #ff211d;
+}
+.addresscon ul li span a{
+    color: black;
+    text-decoration: none;
+    color: #999999;
+    font-size: .875em;
+    margin-left: 1em;
+}
+.addresscon ul li span{
+    color: #999999;
+    font-size: .875em;
+    margin-left: 1em;
+}
+
+.footb {
+    background-color: #212121;
+   padding: 11px 0;
+}
+
+.copys {
+    text-align: center;
+}
+.copys  a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.copys a:hover{
+    color: red;
+}
+.copys p{
+    font-family: "Microsoft PhagsPa";
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-bottom: 0;
+    font-weight: lighter;
+}
+
+#toTop {
+    display: none;
+    text-decoration: none;
+    position: fixed;
+    bottom: 20px;
+    right: 2%;
+    overflow: hidden;
+    z-index: 999;
+    width: 40px;
+    height: 40px;
+    border: none;
+    text-indent: 100%;
+    background: url("../image/arrow.png") no-repeat 0px 0px;
+}
+#toTopHover {
+    width: 40px;
+    height: 40px;
+    display: block;
+    overflow: hidden;
+    float: right;
+    opacity: 0;
+    -moz-opacity: 0;
+    filter: alpha(opacity=0);
+}
+
